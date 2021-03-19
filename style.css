@@ -8,6 +8,28 @@ body {
   font-family: "Rubik", sans-serif;
   background-color: hsl(270, 20%, 96%);
 }
+.bg {
+  background: linear-gradient( to bottom, hsl(264, 100%, 61%), hsl(293, 100%, 63%) );
+  height: 80vh;
+  width: 700px;
+  position: absolute;
+  top: 0;
+  left: -10%;
+  border-bottom-right-radius: 350px;
+  border-bottom-left-radius: 350px;
+  z-index: -1;
+}
+.bg2 {
+  background: linear-gradient(to top, hsl(264, 75%, 89%), hsl(293, 94%, 88%));
+  height: 80vh;
+  width: 500px;
+  position: absolute;
+  bottom: 0;
+  right: -11%;
+  border-top-right-radius: 240px;
+  border-top-left-radius: 240px;
+  z-index: -1;
+}
 
 .container {
   display: flex;
