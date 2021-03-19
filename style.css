@@ -11,7 +11,7 @@ body {
 .bg {
   background: linear-gradient( to bottom, hsl(264, 100%, 61%), hsl(293, 100%, 63%) );
   height: 80vh;
-  width: 700px;
+  width: 200px;
   position: absolute;
   top: 0;
   left: -10%;
@@ -22,7 +22,7 @@ body {
 .bg2 {
   background: linear-gradient(to top, hsl(264, 75%, 89%), hsl(293, 94%, 88%));
   height: 80vh;
-  width: 500px;
+  width: 300px;
   position: absolute;
   bottom: 0;
   right: -11%;
